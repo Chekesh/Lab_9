@@ -8,7 +8,7 @@ public class Dog extends Animal {
 
     @Override
     void makeNoise() {
-        System.out.println(animal + " " + locathion);// this
+        System.out.println(animal + " " + locathion + " food = " + food);
     }
 
     public String getAnimal() {
@@ -17,6 +17,6 @@ public class Dog extends Animal {
 
     @Override
     void eat() {
-        this.food--;
+        food++;
     }
 }

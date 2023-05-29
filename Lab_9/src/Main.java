@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Animal dog;
-        dog = new Dog(50, "бодорствует", "Собака");
+        Animal dog = new Dog(50, "бодорствует", "Собака");
         dog.eat();
         Animal cat = new Cat(30, "бодорствует", "Кот");
         cat.eat();

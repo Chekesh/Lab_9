@@ -7,7 +7,7 @@ public class Animal {
         this.locathion = locathion;
     }
     void eat() {
-        this.food++;
+        this.food--;
     }
     void sleep() {
         this.locathion = "спит";

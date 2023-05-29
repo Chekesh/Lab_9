@@ -9,11 +9,11 @@ public class Horse extends Animal {
 
     @Override
     void makeNoise() {
-        System.out.println(animal + " " + locathion);
+        System.out.println(animal + " " + locathion + " food = " + food);
     }
 
     @Override
     void eat() {
-        this.food--;
+        food++;
     }
 }
